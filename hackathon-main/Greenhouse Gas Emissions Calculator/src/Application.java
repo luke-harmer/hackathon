@@ -54,7 +54,7 @@ public class Application implements ActionListener{
         submitButton.addActionListener(new Application());
         panel.add(submitButton);
  
-         
+        frame.setTitle("Greenhouse Gas Emission Calculator");
         frame.setVisible(true);
     }
     
